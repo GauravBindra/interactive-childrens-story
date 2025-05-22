@@ -3,7 +3,6 @@
 An AI-powered storytelling playground for children aged **5-10**.  
 Describe any adventure, guide the plot with on-screen choices, then listen to a narrated ending and view a DALL·E-generated poster of your tale.
 
-![screenshot](docs/screenshot.png)
 
 [▶️ Watch the demo video](https://drive.google.com/file/d/1fWaqwoZ10Ddna2wdaBhEQVGa9LLtnL3i/view?usp=sharing)
 [▶️ Alternate demo video](https://drive.google.com/file/d/1W55_Ww8nEvP7qraw9fTsh6rSy186S3vN/view?usp=drive_link)
