@@ -1,0 +1,6 @@
+# Core dependencies for Interactive Bedtime Stories app
+openai>=1.12.0  # OpenAI Python SDK with audio & images support
+gradio>=4.29.0  # Web UI framework used for the interactive interface
+
+# Optional but recommended
+python-dotenv>=1.0.0  # Easy loading of OPENAI_API_KEY from .env files
