@@ -411,7 +411,7 @@ def start_story(idea: str, category: str, state: dict):
         gr.update(visible=False),  # poster btn
         gr.update(visible=True),   # voice dropdown
         gr.update(visible=True),   # narrate btn
-        gr.update(visible=False),  # audio player
+        gr.update(value=None, visible=False),  # audio player - clear and hide
         gr.update(visible=True),   # learn btn
         gr.update(visible=False),  # judge btn
         gr.update(value="", visible=False),  # judge_output - clear
@@ -450,7 +450,7 @@ def choose(option_text: str, state: dict):
             gr.update(visible=False),  # poster btn
             gr.update(visible=True),   # voice dropdown
             gr.update(visible=True),   # narrate btn
-            gr.update(visible=False),  # audio
+            gr.update(value=None, visible=False),  # audio - clear and hide
             gr.update(visible=True),   # learn btn
             gr.update(visible=False),  # judge btn
             state,
@@ -466,7 +466,7 @@ def choose(option_text: str, state: dict):
             gr.update(visible=True),               # poster btn
             gr.update(visible=True),               # voice dropdown
             gr.update(visible=True),               # narrate btn
-            gr.update(visible=False),              # audio
+            gr.update(value=None, visible=False),  # audio - clear and hide
             gr.update(visible=True),               # learn btn
             gr.update(visible=True),               # judge btn - show after story ends
             state,
@@ -502,7 +502,7 @@ def apply_feedback(feedback: str, state: dict):
             gr.update(visible=False),  # poster btn
             gr.update(visible=True),   # voice dropdown
             gr.update(visible=True),   # narrate btn
-            gr.update(visible=False),  # audio
+            gr.update(value=None, visible=False),  # audio - clear and hide
             gr.update(visible=True),   # learn btn
             gr.update(visible=False),  # judge btn
             state,
@@ -518,7 +518,7 @@ def apply_feedback(feedback: str, state: dict):
             gr.update(visible=True),   # poster btn
             gr.update(visible=True),   # voice dropdown
             gr.update(visible=True),   # narrate btn
-            gr.update(visible=False),  # audio
+            gr.update(value=None, visible=False),  # audio - clear and hide
             gr.update(visible=True),   # learn btn
             gr.update(visible=True),   # judge btn
             state,
